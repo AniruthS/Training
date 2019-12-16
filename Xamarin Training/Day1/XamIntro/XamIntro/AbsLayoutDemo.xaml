@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamIntro.AbsLayoutDemo">
+    <ContentPage.Content>
+        <AbsoluteLayout>
+            <BoxView BackgroundColor="Purple"
+                     AbsoluteLayout.LayoutBounds="0,0,1,200"
+                     AbsoluteLayout.LayoutFlags="WidthProportional"
+                     />
+            <BoxView BackgroundColor="Yellow"
+                     AbsoluteLayout.LayoutBounds="0.5,0.33,100,100"
+                     AbsoluteLayout.LayoutFlags="PositionProportional"
+                     />
+            <Label
+                BackgroundColor="Black"
+                TextColor="White" HorizontalOptions="CenterAndExpand"
+                Text="Copyright (c) AmeTek - 2019"
+                     AbsoluteLayout.LayoutBounds="0,1,1,30"
+                     AbsoluteLayout.LayoutFlags="PositionProportional,
+                     WidthProportional" />
+
+
+        </AbsoluteLayout>
+    </ContentPage.Content>
+</ContentPage>

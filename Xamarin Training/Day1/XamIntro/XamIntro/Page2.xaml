@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamIntro.Page2"
+             Title="Welcome Page">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label x:Name="LabelMessage" />
+            <Button Text="Back" x:Name="ButtonBack" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

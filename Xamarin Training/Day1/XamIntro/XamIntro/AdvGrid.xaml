@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamIntro.AdvGrid"
+             Title="Speaker Details">
+    <ContentPage.Content>
+        <ScrollView>
+            <ScrollView.Content>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <Image Source="http://pngimg.com/uploads/crowd/crowd_PNG42.png"
+                   Grid.Row="0" Grid.Column="0"
+                   WidthRequest="300" HeightRequest="200"
+                   Aspect="AspectFill"
+                   />
+                    <Label Text="C# Annual Conference 2020"
+                   HorizontalOptions="Center" FontSize="Subtitle"
+                   Grid.Row="0" Grid.Column="0"
+                   />
+
+                    <Image Source="https://pluralsight.imgix.net/author/lg/sekhar-srinivas-v3.jpg"
+                   WidthRequest="100" HeightRequest="100"
+                   Grid.Row="1" Grid.Column="0"
+                   TranslationY="-50"/>
+
+                    <StackLayout Grid.Row="2" Grid.Column="0"
+                         Margin="0,-50,0,0">
+                        <Label Text="Sekhar Srinivasan" FontSize="Title"
+                       TextColor="Purple" HorizontalOptions="Center" />
+                        <Label Text="Microsoft Certified Trainer" FontSize="Subtitle"
+                       TextColor="Gray" HorizontalOptions="Center" />
+                    </StackLayout>
+
+                    <Grid Grid.Row="3" Grid.Column="0">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+
+                        <Label Text="Likes" FontSize="Subtitle"
+                       Grid.Row="0" Grid.Column="0"
+                       TextColor="Purple" HorizontalOptions="Center" />
+                        <Label Text="100" FontSize="Subtitle"
+                       Grid.Row="1" Grid.Column="0"
+                       TextColor="Gray" HorizontalOptions="Center" />
+
+                        <Label Text="Following" FontSize="Subtitle"
+                       Grid.Row="0" Grid.Column="1"
+                       TextColor="Purple" HorizontalOptions="Center" />
+                        <Label Text="140" FontSize="Subtitle"
+                       Grid.Row="1" Grid.Column="1"
+                       TextColor="Gray" HorizontalOptions="Center" />
+
+                        <Label Text="Followers" FontSize="Subtitle"
+                       Grid.Row="0" Grid.Column="2"
+                       TextColor="Purple" HorizontalOptions="Center" />
+                        <Label Text="160" FontSize="Subtitle"
+                       Grid.Row="1" Grid.Column="2"
+                       TextColor="Gray" HorizontalOptions="Center" />
+                    </Grid>
+
+                    <Label Text="Sekhar Srinivas ( Microsoft Certified Trainer ) Well known for his good track record as one of the best I.T faculty in imparting his unique techniques in training from past 19 years and trained more than 1Lakh students on various Microsoft Technologies Platforms incl. VB6.0, ASP, VB.NET, C#, ASP.NET , Silverlight , ASP.NET MVC, SharePoint 2013, Azure, Xamarin.Andriod, Xamarin.iOS, Xamarin Forms and JavaScript Frameworks.Sekhar has a rich experience in technology consulting, providing solutions for complex and diverse problems to corporate, he is a person,who always believe in updating himself with the upcoming technologies to deliver the best to the trainees. Sekhar is one of the technical evangelist for CSharpCorner and Microsoft User Group providing trainings on latest technologies. For More details visit my website : www.sekhartheguru.net "
+                   Grid.Row="4" Grid.Column="0"
+                   FontSize="Body" Margin="20"/>
+
+                    <StackLayout Orientation="Horizontal" Spacing="6"
+                         Grid.Row="5" Grid.Column="0">
+                        <Image Source="https://image.flaticon.com/icons/png/512/65/65680.png"
+                       WidthRequest="50" HeightRequest="50"
+                       />
+                        <Label Text="+91-9010921619" />
+                    </StackLayout>
+
+                    <StackLayout Orientation="Horizontal" Spacing="6"
+                         Grid.Row="6" Grid.Column="0">
+                        <Image Source="http://pluspng.com/img-png/email-icon-png-download-icons-logos-emojis-email-icons-2400.png"
+                       WidthRequest="50" HeightRequest="50"
+                       />
+                        <Label Text="sekharonline4u@gmail.com" />
+                    </StackLayout>
+                </Grid>
+            </ScrollView.Content>
+        </ScrollView>
+
+    </ContentPage.Content>
+</ContentPage>

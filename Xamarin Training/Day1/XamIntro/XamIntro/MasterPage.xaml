@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamIntro.MasterPage"
+             Title="Bookings">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="Azure">
+            <Image Source="https://lipanitechnologies.com/wp-content/uploads/2017/12/microsoft-bookings.jpg"
+                   WidthRequest="300" HeightRequest="200"
+                   Aspect="AspectFill" />
+
+            <Button Text="Hotels" BackgroundColor="Green" x:Name="ButtonHotels"
+                   x:FieldModifier="Public" />
+            <Button Text="Flight" BackgroundColor="AliceBlue" x:Name="ButtonFlight"
+                    x:FieldModifier="Public" />
+            <Button Text="Cab"  BackgroundColor="Firebrick" x:Name="ButtonCab"
+                    x:FieldModifier="Public"  />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

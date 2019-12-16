@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamIntro.LVPage2"
+             Title="C# Corner Annual Conference - 2020">
+    <ContentPage.Content>
+        <ListView x:Name="ListViewSpeakers" HasUnevenRows="True" SeparatorVisibility="None">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <!-- First Type ( Master - Detail Data ) -->
+                    <!--<TextCell Text="{Binding Topic}" TextColor="Purple"
+                              Detail="{Binding SpeakerName}" DetailColor="Gray"
+                        />-->
+
+                    <!-- Second Type ( Master - Detail along with an Image )-->
+                    <!--<ImageCell Text="{Binding Topic}" 
+                               Detail="{Binding SpeakerName}" 
+                               ImageSource="{Binding ImageUrl}"
+                        />-->
+
+                    <!-- Third Type ( Complete UI Customization as per requirement ) -->
+                    <ViewCell>
+                        <ViewCell.View>
+                            <Frame BorderColor="Indigo" CornerRadius="10" Margin="10">
+                                 <StackLayout>
+                                <Image Source="{Binding ImageUrl}"
+                                       WidthRequest="300" HeightRequest="200" Aspect="AspectFill" />
+                                <Label Text="{Binding SpeakerName}" TextColor="Purple"
+                                       FontSize="Title" />
+                                <Label Text="{Binding Topic}" TextColor="Gray" FontSize="Subtitle" />
+                            </StackLayout>
+                            </Frame>
+                           
+                        </ViewCell.View>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </ContentPage.Content>
+</ContentPage>

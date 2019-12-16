@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamIntro.RelLayoutDemo">
+    <ContentPage.Content>
+        <RelativeLayout>
+            <BoxView BackgroundColor="Purple"
+                     RelativeLayout.WidthConstraint="{ConstraintExpression
+                    Type=RelativeToParent, Property=Width}"
+                     HeightRequest="150" x:Name="ImageBanner"
+                     />
+
+            <BoxView BackgroundColor="Yellow"
+                     RelativeLayout.YConstraint="{
+                ConstraintExpression Type=RelativeToView,
+                ElementName=ImageBanner,
+                Property=Height,Constant=10}"
+                     RelativeLayout.XConstraint="{
+                ConstraintExpression Type=RelativeToParent,
+                Property=Width,Factor=0.4}"
+
+                     />
+        </RelativeLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamIntro.GridBasicDemo">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="2*"/>
+            </Grid.ColumnDefinitions>
+
+            <Label Text="Login Form" Grid.Row="0" Grid.Column="0"
+                   TextColor="Purple" FontSize="Title"
+                   Grid.ColumnSpan="2"
+                   HorizontalOptions="Center"/>
+
+             <Label Text="User name :" Grid.Row="1" Grid.Column="0"
+                   TextColor="Purple" FontSize="Body" />
+            <Entry Placeholder="Enter Username"
+                   Grid.Row="1" Grid.Column="1" />
+
+            <Label Text="Password :" Grid.Row="2" Grid.Column="0"
+                   TextColor="Purple" FontSize="Body" />
+            <Entry Placeholder="Enter Password"
+                   Grid.Row="2" Grid.Column="1" IsPassword="True"/>
+
+            <Button Text="Login" Grid.Row="3" Grid.Column="0"
+                    BackgroundColor="LightGreen"
+                    Visual="Material"
+                    Grid.ColumnSpan="2"
+                    HorizontalOptions="Center" WidthRequest="100"
+                    />
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

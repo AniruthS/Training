@@ -1,0 +1,75 @@
+﻿<Properties StartupConfiguration="{A226C6CB-9A3F-4A7B-BA8A-EC6BFA67159E}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="XamIntro/LVPage2.xaml">
+    <Files>
+      <File FileName="XamIntro/MainPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="XamIntro/MainPage.xaml" Line="14" Column="16" />
+      <File FileName="XamIntro.Android/MainActivity.cs" Line="24" Column="38" />
+      <File FileName="XamIntro/App.xaml.cs" Line="23" Column="58" />
+      <File FileName="XamIntro/RegistrationPage.xaml" Line="30" Column="27" />
+      <File FileName="XamIntro/RegistrationPage.xaml.cs" Line="13" Column="13" />
+      <File FileName="XamIntro/HotelPage.xaml" Line="11" Column="40" />
+      <File FileName="XamIntro/HotelPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="XamIntro/FlightPage.xaml" Line="17" Column="23" />
+      <File FileName="XamIntro/FlightPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="XamIntro/CabPage.xaml" Line="5" Column="25" />
+      <File FileName="XamIntro/CabPage.xaml.cs" Line="6" Column="19" />
+      <File FileName="XamIntro/BookingsCarouselPage.xaml" Line="9" Column="26" />
+      <File FileName="XamIntro/BookingsCarouselPage.xaml.cs" Line="8" Column="61" />
+      <File FileName="XamIntro/BookingsTabbedPage.xaml" Line="10" Column="9" />
+      <File FileName="XamIntro/BookingsTabbedPage.xaml.cs" Line="8" Column="57" />
+      <File FileName="XamIntro/Page1.xaml" Line="10" Column="62" />
+      <File FileName="XamIntro/Page1.xaml.cs" Line="22" Column="10" />
+      <File FileName="XamIntro/Page2.xaml" Line="7" Column="8" />
+      <File FileName="XamIntro/Page2.xaml.cs" Line="20" Column="33" />
+      <File FileName="XamIntro/DefaultDetailPage.xaml" Line="4" Column="54" />
+      <File FileName="XamIntro/DefaultDetailPage.xaml.cs" Line="9" Column="6" />
+      <File FileName="XamIntro/MasterPage.xaml" Line="21" Column="1" />
+      <File FileName="XamIntro/MasterPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="XamIntro/MasterDetailCSPage.cs" Line="12" Column="71" />
+      <File FileName="XamIntro/MasterDetailXamlPage.xaml" Line="8" Column="39" />
+      <File FileName="XamIntro/MasterDetailXamlPage.xaml.cs" Line="21" Column="51" />
+      <File FileName="XamIntro/GridBasicDemo.xaml" Line="17" Column="1" />
+      <File FileName="XamIntro/GridBasicDemo.xaml.cs" Line="1" Column="1" />
+      <File FileName="XamIntro/AdvGrid.xaml" Line="81" Column="41" />
+      <File FileName="XamIntro/AdvGrid.xaml.cs" Line="1" Column="1" />
+      <File FileName="XamIntro/AbsLayoutDemo.xaml" Line="12" Column="59" />
+      <File FileName="XamIntro/AbsLayoutDemo.xaml.cs" Line="1" Column="1" />
+      <File FileName="XamIntro/RelLayoutDemo.xaml" Line="15" Column="28" />
+      <File FileName="XamIntro/RelLayoutDemo.xaml.cs" Line="1" Column="1" />
+      <File FileName="XamIntro/LVPage1.xaml" Line="5" Column="40" />
+      <File FileName="XamIntro/LVPage1.xaml.cs" Line="26" Column="51" />
+      <File FileName="XamIntro/Speaker.cs" Line="12" Column="49" />
+      <File FileName="XamIntro/SpeakerService.cs" Line="28" Column="93" />
+      <File FileName="XamIntro/LVPage2.xaml" Line="18" Column="43" />
+      <File FileName="XamIntro/LVPage2.xaml.cs" Line="19" Column="53" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="XamIntro" expanded="True">
+            <Node name="XamIntro" expanded="True">
+              <Node name="App.xaml" expanded="True" />
+              <Node name="LVPage1.xaml" expanded="True" />
+              <Node name="LVPage2.xaml" expanded="True" selected="True" />
+              <Node name="Page2.xaml" expanded="True" />
+            </Node>
+            <Node name="XamIntro.iOS" expanded="True">
+              <Node name="Resources" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.XamIntro.Android PreferredExecutionTarget="Android.pixel_2_q_10_0_api_29" />
+  <MonoDevelop.Ide.ItemProperties.XamIntro.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.9FC187EE-3FD5-4429-A77F-42AF7455DE7B" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
